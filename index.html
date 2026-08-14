@@ -119,9 +119,10 @@
   }
   .section-title::before{ content:'// '; color:var(--muted); }
 
-  /* ABOUT */
-  .about-text{ max-width:640px; font-size:17px; color:var(--muted); }
+  /* ABOUT & PHILOSOPHY */
+  .about-text{ max-width:640px; font-size:17px; color:var(--muted); margin-bottom: 24px; }
   .about-text strong{ color:var(--text); font-weight:600; }
+  .philosophy-heading { font-family: 'Fraunces', serif; font-size: 26px; font-weight: 600; margin-bottom: 16px; color: var(--text); }
 
   /* PROJECTS */
   .projects{ display:grid; grid-template-columns:repeat(auto-fit, minmax(260px,1fr)); gap:20px; }
@@ -187,6 +188,7 @@
     <div class="logo">rohit.dev</div>
     <nav>
       <a href="#about">About</a>
+      <a href="#philosophy">Philosophy</a>
       <a href="#projects">Projects</a>
       <a href="#skills">Skills</a>
       <a href="#resume">Resume</a>
@@ -215,10 +217,21 @@
   </section>
 
   <!-- ABOUT -->
-  <section id="about">
+  <section id="about" style="padding-bottom: 40px;">
     <div class="section-title">about</div>
     <p class="about-text">
       I'm <strong>Rohit Neelakanta</strong>, a B.E. student in ECE at NMIT based in Bengaluru, Karnataka. I care about structuring complex data ecosystems, hardware-software integration, and building real-world solutions. Outside of my engineering coursework, I enjoy testing my skills in intensive environments like the Odoo Hackathon — it keeps my thinking sharp and adaptable.
+    </p>
+  </section>
+
+  <!-- PHILOSOPHY -->
+  <section id="philosophy" style="border-top: none; padding-top: 0;">
+    <h2 class="philosophy-heading">Building Like a Polymath</h2>
+    <p class="about-text">
+      For me, engineering isn't just about collecting a random assortment of skills—it's about bridging the gap between the physical and digital worlds. Because I work across different domains—from configuring lab benches with dual power supplies and dialing in FPGA logic, to architecting backend relational databases and AI integrations—I get to see how the entire puzzle fits together. 
+    </p>
+    <p class="about-text">
+      I believe the most impactful engineering happens at the intersection of disciplines. By understanding the full stack, from the lowest-level hardware signals to the highest-level software architecture, I can anticipate problems others might miss and build robust, end-to-end solutions that actually last.
     </p>
   </section>
 
